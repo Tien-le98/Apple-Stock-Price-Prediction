@@ -75,7 +75,7 @@ However, this bad performance can be because of the different stock price’s tr
 
 Besides Apple stock’s close price, this best LSTM architecture was also evaluated on close price of other 29 stocks. Its performance was presented in the below table. Since all other stock prices also were negatively affected by the COVID-19 pandemic, this best network can not perform well and generate good predictions. However, its performance on MRK stock was the greatest with the lowest MSE value of close price. This can be because MRK is stock of Merck & Co., Inc., which is an American multinational pharmaceutical company. In COVID-19 expansion, pharmaceutical companies can receive more investment since they play vital role in preventing and slowing down the spread of the pandemic. Therefore, their stock price may not be affected significantly like stocks of other companies.
 
-<a href="url"><img src="https://github.com/Tien-le98/Apple-Stock-Price-Prediction/blob/main/otherstock_test.png" align="center" height = "700" width = "500"></a>
+<a href="url"><img src="https://github.com/Tien-le98/Apple-Stock-Price-Prediction/blob/main/otherstock_test.png" align="center" height = "700" width = "400"></a>
 
 ## CONCLUSION
 
@@ -87,4 +87,4 @@ Through results of experiments in this project, several main points were defined
 + The best model performed pretty well on the validation dataset with the MSE value of nearly 125. However, it works very badly on the testing dataset with MSE value of over 8936. This problem happened can be due to the significantly negative effect of COVID-19 pandemic on stock prices, leading to different price’s trend in the training set, validation set and the testing set. Therefore, this model can generate pretty good prediction on the validation set, but worse prediction on the testing set.
 + After evaluating this best network on the testing data of other stocks, the same problem was observed since their MSE values were extremely higher, except for MRK stock. This can be because this MRK stock was stock of an American multinational pharmaceutical company, its price’s trend was not affected as significantly as other stocks by the COVID-19 expansion, because pharmaceutical companies play a vital role in preventing the spread of the pandemic, they can receive more investment and their stock prices may not dropped sharply like other stocks.
 
-> Please refer to this code for more details: [code]("https://github.com/Tien-le98/Apple-Stock-Price-Prediction/blob/main/code_file.ipynb")
+> Please refer to this code for more details: [code](https://github.com/Tien-le98/Apple-Stock-Price-Prediction/blob/main/code_file.ipynb)
