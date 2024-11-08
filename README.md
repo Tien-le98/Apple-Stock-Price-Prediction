@@ -1,6 +1,6 @@
 # Apple Stock Price Prediction by Recurrent Neural Network
 
-_Author: Clara Le_
+_Author: Pham Thuy Tien (Clara) Le_
 
 _Date: 22/11/2023_
 
